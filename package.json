@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src",
+    "lint": "standard"
+  },
+  "author": "Tobias Andersen",
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "dependencies": {
+    "babel-preset-es2015-node6": "0.2.0",
+    "babel-preset-stage-0": "6.5.0",
+    "babel-register": "6.11.6",
+    "deepstream.io": "1.0.3",
+    "deepstream.io-storage-rethinkdb": "1.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "6.1.2",
+    "nodemon": "1.10.0",
+    "standard": "7.1.2"
+  }
+}
+
